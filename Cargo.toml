@@ -67,6 +67,8 @@ toml_edit         = { version = "0.20.2", features = ["serde"] }
 url               = { version = "2.5.0" }
 zstd              = { version = "0.11.2" }                                                                         # follow same version wasmtime-cache in lockfile
 
+tempfile = "3.0" 
+
 serde = { version = "1.0", features = ["derive"] }
 toml = "0.8"
 
