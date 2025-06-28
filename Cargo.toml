@@ -68,6 +68,7 @@ url               = { version = "2.5.0" }
 zstd              = { version = "0.11.2" }                                                                         # follow same version wasmtime-cache in lockfile
 
 tempfile = "3.0" 
+uuid = { version = "1", features = ["v4"] }
 
 serde = { version = "1.0", features = ["derive"] }
 toml = "0.8"
